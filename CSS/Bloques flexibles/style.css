@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+div,body{
+    box-sizing: border-box;
+}
+
+.Flexbox{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.Bloque{
+    min-width: 200px;
+    background-color: #7bf;
+    margin: auto;
+    flex: 1;
+    margin: 10px;
+}
+
+.Sinadapta-Bloque{
+    width: 600px;
+    height: 200px;
+    background-color: #7bf;
+    margin: 20px;
+}

@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item{
+    background-color: aqua;
+    border: 2px solid red;
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 100px;
+    padding: 50px;
+}
+
+@media screen and (max-width:500px){
+    .flex-item{
+        background-color: black;
+    }
+    .flexbox{
+        flex-direction: column;
+    }
+}
+

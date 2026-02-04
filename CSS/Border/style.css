@@ -1,0 +1,10 @@
+div{
+    background: red;
+    width: 150PX;
+    margin: auto;
+    text-align: center;
+
+    border-radius: 4px;
+    border: 2px solid black;
+}
+

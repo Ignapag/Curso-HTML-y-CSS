@@ -1,0 +1,18 @@
+div{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: #f3a;
+    background-image: url("https://images.unsplash.com/photo-1529778873920-4da4926a72c2?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z2F0aXRvfGVufDB8fDB8fHww");
+    background-size: contain;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: top;
+    background: url("") top / cover fixed #f3a
+}
+
+body{
+    background: #000;
+}

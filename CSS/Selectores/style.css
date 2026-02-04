@@ -1,0 +1,28 @@
+img[src="gatito.jpg"]{
+    width: 100%;
+}
+
+img[scr$="jpg"]{
+    width: 100%;
+}
+
+img[scr^="gatito"]{ 
+    width: 100%;
+}
+
+ul li{
+color: red;
+}
+
+li > em{
+    color:#00f;
+}
+
+h1 + p{
+    color:aqua
+}
+
+h1 ~ p {
+    color:aqua
+}
+

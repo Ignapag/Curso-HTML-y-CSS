@@ -1,0 +1,8 @@
+body,div{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 50%;
+    height: auto;
+}

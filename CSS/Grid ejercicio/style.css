@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    background-color: rgb(174, 67, 184);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+
+.Grid{
+    box-sizing: border-box;
+    max-width: 1200px;
+    flex-grow: 1;
+    margin:auto ;
+    display: grid;
+    grid-template-columns: minmax(200px, 1fr) minmax(250px, 4fr) minmax(100px, 2fr);
+    grid-template-areas:
+    "nav main aside"
+    "Debajo Debajo Debajo";
+    width: 100%;
+    padding: 10px;
+    gap:10px;
+    grid-auto-flow: dense;
+}
+
+nav,main,aside,.Debajo{
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+header{
+    border-bottom: 2px solid white;
+}
+
+footer{
+    border-top: 2px solid white;
+}
+h1,h2{
+    text-align: center;
+}
+
+.header, .footer{
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgb(174, 67, 184);
+    text-align: center;
+    color: white;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+.main{
+    grid-area: main;
+    text-align: justify;
+    padding: 10px;
+}
+
+.nav{
+    grid-area: nav;
+    padding: 10px;
+    position: sticky;
+}
+
+.nav ul{
+    list-style: none;
+    text-align: left;
+}
+
+.aside{
+    grid-area: aside;
+    padding: 10px;
+    
+}
+
+
+.Debajo{
+    min-height: 100px;
+    grid-area: Debajo;
+    width: 100%;
+    text-align: center;
+}
+
+
+@media screen and (max-width:700px){
+
+    .Grid{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "nav"
+        "main"
+        "aside"
+        "Debajo";
+        margin: auto;
+    }
+
+    nav,aside{
+        height: auto;
+        position: static;
+    }
+
+}
+

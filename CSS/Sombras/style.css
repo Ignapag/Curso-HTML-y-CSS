@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+
+.box{
+    width: 300px;
+    height: 400px;
+    background: #e2e2e2;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0px 0px 40px 0px #0007;
+    padding:20px;
+    text-align: center;
+}
+
+h2{
+    text-shadow:0px 0px 40px #000a;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    text-shadow: 0px 0px 40px #000a;
+    font-size:80%;
+}
+
+img{
+    width: 250;
+    height: 200px;
+    border-radius:5px;
+    border: 2px solid #aaa;
+    box-shadow: 0px 0px 40px 0px #000a;
+}
+

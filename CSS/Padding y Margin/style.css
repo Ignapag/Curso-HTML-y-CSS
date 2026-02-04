@@ -1,0 +1,12 @@
+.formulario{
+    background: red;
+    padding: 10PX;
+    padding-right: 40PX;
+    margin: 50px;
+}
+.formulario_input{
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin:5px;
+}
