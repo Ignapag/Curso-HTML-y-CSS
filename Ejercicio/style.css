@@ -1,0 +1,53 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.card {
+    background: #e2e2e2;
+    text-align: center;
+    width: 900px;
+    height: 800px;
+    margin: auto;
+    margin-top: 200px;
+    border: 5px solid #000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px 0 #000a;
+    display: inline-block;
+    margin:20px
+}
+
+.card-roja{
+    background: #f00c;
+}
+
+.card-azul{
+    background: #00fa;
+}
+.card_imagen{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border:5px solid #000 ;
+    box-shadow: 0px 0px 40px 0 #000a;
+}
+
+.card_titulo{
+    padding-top: 10PX;
+    font-size: 70px;
+    margin: 0px;
+}
+
+.card_subtitulo{
+    margin-top: 30px;
+    font-size: 30Px;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.card_parrafo{
+    font-size: 30PX;
+    padding:20px;
+    text-align: justify;
+}
