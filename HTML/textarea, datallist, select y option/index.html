@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Textarea</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form>
+            <h2>
+            Formulario de contacto
+            </h2>
+            <fieldset>
+                <legend>Contacto</legend>
+            <!--Textarea-->
+            <div class="form-input">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" placeholder="Nacho Pagotto" id="nombre">
+            </div>
+            <div class="form-input">
+                <label for="mail">Email</label>
+                <input type="email" placeholder="Mimail@gmail.com" id="mail">
+            </div>
+            <div class="form-input">
+                <label for="mensaje">Mensaje</label>
+                <textarea placeholder="deja tu mensaje..." id="mensaje" ></textarea>
+            </div>
+            <!--Select y option-->
+
+            <div class="form-input">
+                <label>Genero:</label>
+                <select name="Genero">
+                    <option value="Mujer">Mujer</option>
+                    <option value="Hombre">Hombre</option>
+                    <option value="Nb">No binario</option>
+                    <option value="Nb">Puto</option>
+                </select>
+            </div>
+            </fieldset>
+                <!--Datallist y option-->
+
+            <div class="form-input">
+                <label>Electrodomestico</label>
+                <input list="Electrodomestico">
+                <datalist id="Electrodomestico">
+                    <option value="Horno"></option>
+                    <option >Pava</option>
+                    <option >Heladera</option>
+                    <option >Parlante</option>
+                </datalist>
+            </div>
+        </form>
+    </body>
+</html>

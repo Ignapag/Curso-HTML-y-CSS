@@ -1,0 +1,12 @@
+details{
+    background-color: gray;
+    color:whitesmoke;
+    border: 2px solid #fff;
+}
+
+body{
+    background: black;
+}
+summary{
+    border-bottom: 2px solid #fff;
+}
